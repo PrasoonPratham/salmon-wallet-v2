@@ -71,7 +71,7 @@ const NetworkSelector = ({ value, setValue, networks, label, disabled }) => (
           <GlobalText
             type="body2"
             style={{ fontSize: theme.fontSize.fontSizeSM }}>
-            {network.name}
+            {network.name === 'Solana' ? 'Eclipse' : network.name}
           </GlobalText>
         </View>
       ),
