@@ -1,6 +1,6 @@
 const ENDPOINTS = {
   SOLANA: {
-    MAIN: 'mainnet-beta',
+    MAIN: 'https://staging-rpc.dev.eclipsenetwork.xyz:8899',
   },
   NEAR: {
     MAIN: 'mainnet',
